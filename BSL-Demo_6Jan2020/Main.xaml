@@ -55,21 +55,23 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
     <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="Process Started" />
+    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="Process in progress" />
     <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="Processcompleted" />
-    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xtYXl1cmlrYXNcRGVza3RvcFxHaXQgcmVwb1xCU0wtRGVtb182SmFuMjAyMFxNYWluLnhhbWwFOAM8DgIBATkFOYYBAgEEOgU6hwECAQI5cjmDAQIBBTpyOoQBAgED</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xtYXl1cmlrYXNcRGVza3RvcFxHaXQgcmVwb1xCU0wtRGVtb182SmFuMjAyMFxNYWluLnhhbWwHOAM9DgIBATkFOYYBAgEGOgU6igECAQQ7BTuHAQIBAjlyOYMBAgEHOnI6hwECAQU7cjuEAQIBAw==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="LogMessage_1" sap:VirtualizedContainerService.HintSize="314,91" />
+      <sap2010:ViewStateData Id="LogMessage_3" sap:VirtualizedContainerService.HintSize="314,91" />
       <sap2010:ViewStateData Id="LogMessage_2" sap:VirtualizedContainerService.HintSize="314,91" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,346">
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,477">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,426" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,557" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
