@@ -55,8 +55,8 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
     <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="Process Started" />
-    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="Process In-Progress" />
-    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="Processcompleted" />
+    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="Process In Progress" />
+    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="Process Completed" />
     <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xtYXl1cmlrYXNcRGVza3RvcFxHaXQgcmVwb1xCU0wtRGVtb182SmFuMjAyMFxNYWluLnhhbWwHOAM9DgIBATkFOYYBAgEGOgU6igECAQQ7BTuHAQIBAjlyOYMBAgEHOnI6hwECAQU7cjuEAQIBAw==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
