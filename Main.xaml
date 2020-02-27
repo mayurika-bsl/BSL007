@@ -74,7 +74,7 @@
     </Assign>
     <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[calender.GetWeekOfYear(date.Now.AddYears(-1),dt.CalendarWeekRule, dt.FirstDayOfWeek).ToString]" />
     <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="Process-In-Progress" />
-    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="Process completed" />
+    <ui:LogMessage DisplayName="Log message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="Process-completed" />
     <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xtYXl1cmlrYXNcRGVza3RvcFxHaXQgcmVwb1xCU0wtRGVtb182SmFuMjAyMFxNYWluLnhhbWwNPQNPDgIBAT9BP2MCAQJCBUKGAQIBEUMFSg4CAQxLBUvWAQIBB0wFTIoBAgEFTQVNhwECAQNCckKDAQIBEkgzSEACAQ9FNEU+AgENS3JL0wECAQhMckyHAQIBBk1yTYQBAgEE</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
